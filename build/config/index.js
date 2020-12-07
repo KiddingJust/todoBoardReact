@@ -13,7 +13,7 @@ _dotenv["default"].config();
 
 var _default = {
   MONGO_URI: "mongodb+srv://gaiga:ahffkd18!!@cluster0.fpras.mongodb.net/todoboard?retryWrites=true&w=majority",
-  JWT_SECRET: process.env.JWT_SECRET,
-  PORT: process.env.PORT
+  JWT_SECRET: "gaiga",
+  PORT: "7000"
 };
 exports["default"] = _default;
